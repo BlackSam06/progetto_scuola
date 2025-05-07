@@ -6,7 +6,20 @@ Per l'uso efficente di JavaScript ho utilizzato le librerie:
 - Mysql (per la gestione del database)
 - nodeMon (per il riavvio automatico del server ad ogni modifica)
 - express (per la gestione del server)
-
+# Tabella dei contenuti
+- [Esecuzione](#esecuzione)
+    - [Parte 1 (Apertura del server)](#parte-1-apertura-del-server)
+    - [Parte 2 (Grafica della pagina)](#parte-2-grafica-della-pagina)
+    - [Parte 3 (Uso delle funzioni)](#parte-3-uso-delle-funzioni)
+    - [Parte 4 (Le funzioni)](#parte-4-le-funzioni)
+        - [Visualizzazione](#visualizzazione)
+        - [Modifica](#Modifica)
+        - [Eliminazione](#Eliminazione)
+        - [Inserimento](#Inserimento)
+- [Approfondimenti](#approfondimenti)
+    - [Async](#async)
+    - [Await](#await)
+    - [Fetch](#fetch)
 # Esecuzione 
 ## Parte 1 (Apertura del server)
 ```js
@@ -189,9 +202,9 @@ app.post("/inserisciClasse", (req, res) => {
 });
 ```
 
-## Parte 5 (Approfondimenti)
-### Async
-#### Codice Esempio
+# Approfondimenti
+## Async
+### Codice Esempio
 ```js
 //Esempio con funzione classi
 async function classi() {
