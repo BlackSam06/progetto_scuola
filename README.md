@@ -2,7 +2,7 @@
 Il progetto si basa sulla gestione di una scuola con gli studenti e le classi.
 
 Per la gestione dell'intero sito è stata scelta la gestione tramite server con JavaScript.
-Per l'uso efficente di JavaScript ho utilizzato le librerie: 
+Per l'uso efficiente di JavaScript ho utilizzato le librerie: 
 - Mysql (per la gestione del database)
 - nodeMon (per il riavvio automatico del server ad ogni modifica)
 - express (per la gestione del server)
